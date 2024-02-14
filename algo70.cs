@@ -14,7 +14,7 @@ namespace HelloWorld
             {
                 for (int j = 1; j < LCount; j++)
                 {
-                    if (nums[i] + nums[j] == target)
+                    if (nums[i] + nums[j] == target && i != j)
                     {
                         Console.WriteLine(i);
                         Console.WriteLine(j);
